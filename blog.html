@@ -19,9 +19,62 @@
 
     <div id="blog-container">
       <div id="blog-card">
-        <h4>Qestion 1</h4>
-        <h3>Ques 1</h3>
-        <p>answer</p>
+        <h4>Question 1</h4>
+        <h3>
+          What are the differences between Local Storage and Session Storage?
+        </h3>
+        <p>
+          <strong>Answer: </strong> 
+          <br>
+          <br>Their main difference is that local storage
+          data does not expire, whereas session storage data gets cleared when
+          the user closes its browser window. <br />
+          <br />Page sessions are valid for only one tab at a time. So, if a user has
+          three tabs open, each one will have its own page session. 
+          <br />
+
+          <br />Since local storage is not session-based, all the data must be deleted
+          via javascript or manually
+        </p>
+
+      </div>
+      <div id="blog-card">
+        <h4>Question 2</h4>
+        <h3>
+          What are the differences between Local Storage and Sessio Storage?
+        </h3>
+        <p>
+          <strong>Answer: </strong><br />
+          <br />
+
+          <strong>Global scope - </strong>Global scope contains all of the
+          things defined outside of all code blocks. A code block simply
+          consists of grouped statements inside curly braces ({ }). if
+          statement, loops, function are examples of structure that create a
+          code block. A global variable has global scope. A global variable is
+          accessible from anywhere in the code.<br />
+          <br />
+          <strong>Local Scope - </strong>Local scope contains things defined
+          inside code blocks. A local variable has local scope. A local variable
+          is only accessible where it’s declared.
+        </p>
+        </div>
+      <div id="blog-card">
+        <h4>Question 3</h4>
+        <h3>
+          What is Event Loop in JavaScript? 
+        </h3>
+        <p>
+          <strong>Answer: </strong><br />
+          <br />
+
+          The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, gives us the illusion of multi-threading. The asynchronous behavior is not part of the JavaScript language itself, rather it is built on top of the core JavaScript language in the browser (or the programming environment) and accessed through the browser APIs.
+          <br>
+          <br>
+
+Browser JavaScript execution flow, as well as in Node.js, is based on an event loop. The event loop concept is very simple. There’s an endless loop, where the JavaScript engine waits for tasks, executes them, and then sleeps, waiting for more tasks.
+        </p>
+        </div>
       </div>
     </div>
   </body>
